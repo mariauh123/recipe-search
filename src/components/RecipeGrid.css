@@ -1,0 +1,24 @@
+.recipe-grid ul{
+  display: grid;
+  /* 1. Sets a minimum card width of 280px so they stay large and readable */
+  /* 2. Automatically fits as many columns as possible */
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+  
+  /* Adds space between your recipe cards */
+  gap: 20px; 
+  
+  /* Caps the maximum width of the entire grid container */
+  max-width: 1350px; 
+  margin: 0 auto;
+  padding: 20px;
+
+  list-style-type: none; 
+  margin: 2rem auto;             
+  padding: 0; 
+}
+
+@media (min-width: 960px) {
+  .recipe-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

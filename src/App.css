@@ -1,0 +1,86 @@
+#page-title {
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: 'Apple Chancery', cursive;
+    color: rgb(218, 150, 161); 
+    -webkit-text-stroke: rgb(206, 131, 143) 1.5px;
+    margin: 1rem auto;
+    letter-spacing: 3.5px;
+}
+
+#search-form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    color: rgb(206, 131, 143);
+    font-weight: bolder;
+}
+
+/*
+#search-form label {
+    font-size: 1.2rem;
+    -webkit-text-stroke: rgb(218, 150, 161) 1px;
+}
+ */
+
+body {
+    font-family: 'Palatino', 'URW Palladio L', serif;
+    background-color: #fff5f5;
+}
+
+/* Target your search button specifically */
+input[type="submit"], button {
+  background-color: #c47b85; /* A soft, elegant rose that matches your text vibe */
+  color: #ffffff;            /* Crisp white text for contrast */
+  font-family: inherit;      /* Keeps your current font family */
+  font-weight: 600;
+  padding: 6px 16px;         /* Balanced spacing inside the button */
+  border: none;              /* Removes the default harsh outline */
+  border-radius: 6px;        /* Soft, modern rounded corners */
+  cursor: pointer;           /* Changes mouse to a hand icon on hover */
+  transition: all 0.2s ease; /* Makes the hover effect perfectly smooth */
+}
+
+/* Subtle effect when hovering over the button */
+input[type="submit"]:hover, button:hover {
+  background-color: #b06973; /* A slightly deeper rose tone */
+  transform: translateY(-1px); /* Lifts the button up a tiny bit */
+}
+
+/* Effect when the button is clicked */
+input[type="submit"]:active, button:active {
+  transform: translateY(0px);  /* Pushes it back down */
+}
+
+/* Target your search input text field */
+#search-box {
+  background-color: #ffffff;   /* Pure white background so text is highly readable */
+  color: #5a3d42;              /* Dark rose-tinted charcoal text instead of harsh black */
+  font-family: inherit;        /* Matches your website font */
+  font-size: 14px;
+  padding: 6px 12px;           /* Vertical padding matches the button for perfect alignment */
+  border: 1px solid #e2cad0;   /* A soft, muted rose border instead of default gray */
+  border-radius: 6px;          /* Matches the 6px rounded corners of your button */
+  outline: none;               /* Removes the default harsh browser focus ring */
+  transition: all 0.2s ease;   /* Smoothly animates the focus effect */
+  width: 200px;                /* Sets a clean, standard width for the search bar */
+}
+
+/* Subtle, elegant behavior when the user clicks into the field */
+#search-box:focus {
+  border-color: #c47b85;       /* Changes to your main rose color when typing */
+  box-shadow: 0 0 0 3px rgba(196, 123, 133, 0.15); /* Adds a soft, glowing halo */
+}
+
+.display-msg {
+  font-size: 2rem;
+  text-align: center;
+  margin: 4rem auto;
+  padding: 6rem;
+  color: gray;
+  font-style: oblique;
+  border: 2px double  #c47b85;
+  background-color: #fffafc;
+  max-width: fit-content;
+}

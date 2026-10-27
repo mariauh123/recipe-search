@@ -1,0 +1,42 @@
+.recipe-card {
+  background-color: #fffafc; /* Clean background for visual contrast */
+  border: 2px solid #e9cfd8;
+  border-radius: 15px;
+  padding: 16px;
+  box-sizing: border-box; /* Ensures padding doesn't alter card sizing */
+  display: flex;
+  flex-direction: column;
+
+  height: 600px;
+  overflow: hidden;
+}
+
+.recipe-card__body {
+  overflow-y: auto;
+  margin-top: 8px;
+  max-height: 100%;
+}
+
+.recipe-card p{
+    margin: 3px;
+}
+
+.recipe-card__name {
+    font-size: 2rem;
+    font-family: 'Apple Chancery', cursive;
+    color: rgb(218, 150, 161);
+    -webkit-text-stroke: rgb(206, 131, 143) 1px;
+    padding: 0;
+    margin: 1rem auto;
+}
+
+.recipe-card img {
+    width: 100;
+    height: 320px;
+    object-fit: cover;
+
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+    display: block;
+}
