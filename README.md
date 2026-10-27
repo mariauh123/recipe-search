@@ -65,6 +65,16 @@ Then open the URL shown in your terminal (usually `http://localhost:5173` or `ht
 
 ---
 
+## Deployment
+
+This app can be deployed with **GitHub Pages**.
+
+```markdown
+Live demo: https://mariauh123.github.io/recipe-search/
+```
+
+---
+
 ## API
 
 This project uses [TheMealDB](https://www.themealdb.com/) search endpoint:
